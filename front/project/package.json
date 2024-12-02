@@ -1,0 +1,28 @@
+{
+  "name": "food-delivery",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 9527 --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --port 9527 --host 0.0.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "dayjs": "^1.11.10",
+    "element-plus": "^2.4.3",
+    "pinia": "^2.1.7",
+    "vue": "^3.3.8",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.1",
+    "@vitejs/plugin-vue": "^4.5.0",
+    "sass": "^1.69.5",
+    "serve": "^14.2.4",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0",
+    "vue-tsc": "^2.1.10"
+  }
+}
